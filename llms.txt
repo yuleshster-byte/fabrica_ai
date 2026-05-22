@@ -6,10 +6,10 @@
 
 ## Услуги
 
-- [AI-каталог: быстрое подключение товаров к AI-агентам](https://fabrika-ai.ru/#how): Размещение каталога производителя на нашей multi-tenant MCP-платформе. Загрузка из Excel, CSV, 1С. AI-агенты (ChatGPT, GigaChat, Claude, DeepSeek, Perplexity) начинают находить и рекомендовать товары покупателям. Подключение за 1 день.
-- [Кастомный MCP-сервер для бизнеса](https://fabrika-ai.ru/#custom): Проектирование и развёртывание персонального MCP-сервера с интеграцией 1С, МойСклад, Битрикс, amoCRM и других ERP/CRM систем. Размещение на хостинге клиента, в VK Cloud, Yandex Cloud или on-premise. OAuth-авторизация, tenant isolation, полный контроль данных.
-- [GEO-оптимизация и llms.txt](https://fabrika-ai.ru/#custom): Настройка llms.txt, robots.txt для AI-краулеров (GPTBot, ClaudeBot, PerplexityBot), Schema.org разметка, регистрация в MCP-реестрах (mcp.so, Glama, MCPfinder, MACH Alliance). Увеличение цитирования бизнеса в ответах AI-систем.
-- [White-label AI-бот](https://fabrika-ai.ru/#custom): AI-ассистент на сайте клиента, подключённый к каталогу через MCP. Отвечает на вопросы покупателей, подбирает товары, принимает заявки 24/7.
+- [AI-каталог: быстрое подключение товаров к AI-агентам](https://fabricaai.pro/#how): Размещение каталога производителя на нашей multi-tenant MCP-платформе. Загрузка из Excel, CSV, 1С. AI-агенты (ChatGPT, GigaChat, Claude, DeepSeek, Perplexity) начинают находить и рекомендовать товары покупателям. Подключение за 1 день.
+- [Кастомный MCP-сервер для бизнеса](https://fabricaai.pro/#custom): Проектирование и развёртывание персонального MCP-сервера с интеграцией 1С, МойСклад, Битрикс, amoCRM и других ERP/CRM систем. Размещение на хостинге клиента, в VK Cloud, Yandex Cloud или on-premise. OAuth-авторизация, tenant isolation, полный контроль данных.
+- [GEO-оптимизация и llms.txt](https://fabricaai.pro/#custom): Настройка llms.txt, robots.txt для AI-краулеров (GPTBot, ClaudeBot, PerplexityBot), Schema.org разметка, регистрация в MCP-реестрах (mcp.so, Glama, MCPfinder, MACH Alliance). Увеличение цитирования бизнеса в ответах AI-систем.
+- [White-label AI-бот](https://fabricaai.pro/#custom): AI-ассистент на сайте клиента, подключённый к каталогу через MCP. Отвечает на вопросы покупателей, подбирает товары, принимает заявки 24/7.
 
 ## Технологии
 
@@ -39,6 +39,6 @@
 
 ## Контакты
 
-- Сайт: https://fabrika-ai.ru
-- Telegram: @fabrika_ai
+- Сайт: https://fabricaai.pro
+- Telegram: @leshokyury
 - Локация: Россия

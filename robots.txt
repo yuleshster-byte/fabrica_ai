@@ -30,4 +30,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /tmp/
 
-Sitemap: https://fabrika-ai.ru/sitemap.xml
+Sitemap: https://fabricaai.pro/sitemap.xml
