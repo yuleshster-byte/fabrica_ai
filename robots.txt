@@ -1,0 +1,96 @@
+# robots.txt for ФАБРИКА.AI
+# Максимальная видимость для AI-краулеров и поисковых систем
+
+# ───── Поисковые системы ─────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# ───── OpenAI ─────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# ───── Anthropic (Claude) ─────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ───── Google AI ─────
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# ───── Perplexity ─────
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ───── Apple ─────
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ───── Meta ─────
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+# ───── Amazon ─────
+User-agent: Amazonbot
+Allow: /
+
+# ───── Mistral ─────
+User-agent: MistralAI-User
+Allow: /
+
+# ───── ByteDance / Doubao ─────
+User-agent: Bytespider
+Allow: /
+
+# ───── Прочие AI-краулеры ─────
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# ───── Все остальные ─────
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /tmp/
+
+Sitemap: https://fabricaai.pro/sitemap.xml
