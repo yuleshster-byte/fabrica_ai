@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ФАБРИКА.AI — Новый канал продаж через AI-агентов для производителей</title>
+<meta name="description" content="ФАБРИКА.AI помогает производителям диверсифицировать продажи через AI-агентов. MCP-серверы, GEO-оптимизация, интеграция каталогов с ChatGPT, GigaChat, Claude и другими AI-системами.">
+<meta property="og:title" content="ФАБРИКА.AI — AI-канал продаж для производителей">
+<meta property="og:description" content="Помогаем бизнесу стать видимым для AI-агентов: MCP-серверы, GEO-оптимизация, интеграция каталогов.">
+<meta property="og:type" content="website">
+<link rel="canonical" href="https://fabrika-ai.ru/">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ФАБРИКА.AI",
+  "url": "https://fabrika-ai.ru",
+  "description": "AI-интегратор для производителей. Помогаем бизнесу диверсифицировать каналы продаж через AI-агентов, MCP-серверы и GEO-оптимизацию.",
+  "foundingDate": "2026",
+  "areaServed": "RU",
+  "knowsAbout": ["Model Context Protocol", "MCP-серверы", "AI-агенты для e-commerce", "GEO-оптимизация", "llms.txt", "интеграция каталогов с AI"],
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "Разработка MCP-серверов для бизнеса",
+  "provider": {"@type": "Organization", "name": "ФАБРИКА.AI"},
+  "description": "Проектирование и развёртывание кастомных MCP-серверов для производителей: интеграция каталогов, 1С, CRM с AI-агентами ChatGPT, GigaChat, Claude, DeepSeek.",
+  "serviceType": "AI Integration",
+  "areaServed": "RU"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Что такое MCP-сервер и зачем он нужен бизнесу?", "acceptedAnswer": {"@type": "Answer", "text": "MCP (Model Context Protocol) — открытый стандарт, позволяющий AI-системам (ChatGPT, GigaChat, Claude, DeepSeek) получать данные из внешних источников в реальном времени. MCP-сервер для бизнеса делает ваш каталог, услуги и цены «видимыми» для AI-агентов. Когда покупатель спрашивает AI-ассистента о товаре — агент обращается к MCP-серверам и находит ваше предложение."}},
+    {"@type": "Question", "name": "Как AI-агенты помогают увеличить продажи?", "acceptedAnswer": {"@type": "Answer", "text": "По прогнозу Gartner, к 2026 году до 20% взаимодействий в e-commerce будут инициированы AI-агентами. Покупатели всё чаще ищут товары через ChatGPT, Perplexity, GigaChat вместо традиционного поиска. Если ваш каталог подключён через MCP — AI-агент рекомендует именно ваш товар напрямую покупателю."}},
+    {"@type": "Question", "name": "Нужен ли программист для подключения?", "acceptedAnswer": {"@type": "Answer", "text": "Для базового подключения каталога — нет. Мы принимаем данные в Excel, CSV или выгрузку из 1С и настраиваем MCP-сервер за вас. Для кастомных интеграций с ERP, CRM или собственным сайтом мы выполняем разработку под ключ."}},
+    {"@type": "Question", "name": "Какие AI-системы поддерживаются?", "acceptedAnswer": {"@type": "Answer", "text": "MCP — открытый стандарт, поддерживаемый всеми основными AI-платформами: ChatGPT (OpenAI), Claude (Anthropic), GigaChat (Сбер), DeepSeek, Qwen, Perplexity, Google Gemini и другими. По мере появления новых AI-агентов они автоматически получают доступ к вашему каталогу через MCP."}},
+    {"@type": "Question", "name": "Чем это отличается от SEO или контекстной рекламы?", "acceptedAnswer": {"@type": "Answer", "text": "SEO продвигает вас в поисковой выдаче Google/Яндекс. GEO-оптимизация и MCP продвигают вас в ответах AI-систем — это принципиально новый канал. Покупатель получает рекомендацию от AI-ассистента, которому доверяет, а не кликает по рекламному объявлению. При этом MCP и GEO дополняют, а не заменяют классическое SEO."}}
+  ]
+}
+</script>
+
+<style>
+:root{--bg:#0a0a0f;--bg-card:#12121a;--bg-accent:#1a1a2e;--text:#e8e6e3;--text-muted:#8a8a9a;--accent:#f59e0b;--accent-glow:rgba(245,158,11,.15);--accent2:#3b82f6;--accent2-glow:rgba(59,130,246,.15);--success:#22c55e;--border:rgba(255,255,255,.06);--font-display:'Playfair Display',Georgia,serif;--font-body:'Source Sans 3',sans-serif;--max-w:1200px}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.7;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9999}
+a{color:var(--accent);text-decoration:none}
+.container{max-width:var(--max-w);margin:0 auto;padding:0 2rem}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(10,10,15,.85);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);padding:1rem 0}
+nav .container{display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:var(--font-display);font-weight:900;font-size:1.4rem}.logo span{color:var(--accent)}
+nav ul{list-style:none;display:flex;gap:2rem}
+nav ul li a{color:var(--text-muted);font-size:.9rem;font-weight:600;text-transform:uppercase;letter-spacing:.08em;transition:color .3s}
+nav ul li a:hover{color:var(--accent)}
+.nav-cta{background:var(--accent);color:#000;padding:.55rem 1.5rem;border-radius:6px;font-weight:700;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;transition:transform .2s,box-shadow .2s}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 4px 20px var(--accent-glow)}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:8rem 2rem 4rem;position:relative;text-align:center}
+.hero::before{content:'';position:absolute;top:-50%;left:-20%;width:140%;height:200%;background:radial-gradient(ellipse at 50% 30%,rgba(245,158,11,.06) 0%,transparent 60%),radial-gradient(ellipse at 20% 80%,rgba(59,130,246,.04) 0%,transparent 50%);pointer-events:none}
+.hero-content{position:relative;z-index:1;max-width:920px}
+.hero-badge{display:inline-block;background:var(--bg-accent);border:1px solid var(--border);padding:.4rem 1.2rem;border-radius:100px;font-size:.8rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.1em;margin-bottom:2rem;animation:fadeInUp .8s ease both}
+.hero h1{font-family:var(--font-display);font-size:clamp(2.5rem,6vw,4.2rem);font-weight:900;line-height:1.15;margin-bottom:1.5rem;animation:fadeInUp .8s .15s ease both}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),#fbbf24);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero p{font-size:1.2rem;color:var(--text-muted);max-width:700px;margin:0 auto 2.5rem;animation:fadeInUp .8s .3s ease both}
+.hero-paths{display:flex;gap:1.5rem;justify-content:center;flex-wrap:wrap;animation:fadeInUp .8s .45s ease both}
+.path-card{flex:1;min-width:280px;max-width:400px;border-radius:14px;padding:2rem 1.8rem;text-align:left;cursor:pointer;transition:transform .3s,box-shadow .3s,border-color .3s;border:1px solid var(--border);position:relative;overflow:hidden;background:var(--bg-card)}
+.path-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.path-a::before{background:linear-gradient(90deg,var(--accent),#fbbf24)}
+.path-a:hover{border-color:rgba(245,158,11,.3);transform:translateY(-4px);box-shadow:0 12px 40px var(--accent-glow)}
+.path-b::before{background:linear-gradient(90deg,var(--accent2),#60a5fa)}
+.path-b:hover{border-color:rgba(59,130,246,.3);transform:translateY(-4px);box-shadow:0 12px 40px var(--accent2-glow)}
+.path-icon{font-size:2rem;margin-bottom:.8rem}
+.path-card h3{font-size:1.15rem;font-weight:700;margin-bottom:.4rem}
+.path-card .path-desc{font-size:.9rem;color:var(--text-muted);margin-bottom:1rem;line-height:1.6}
+.path-tag{display:inline-block;padding:.25rem .8rem;border-radius:100px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.path-a .path-tag{background:rgba(245,158,11,.15);color:var(--accent)}
+.path-b .path-tag{background:rgba(59,130,246,.15);color:var(--accent2)}
+.path-btn{display:block;width:100%;text-align:center;padding:.8rem;border-radius:8px;font-weight:700;font-size:.9rem;margin-top:1rem;border:none;cursor:pointer;transition:all .3s}
+.path-a .path-btn{background:var(--accent);color:#000}
+.path-b .path-btn{background:var(--accent2);color:#fff}
+section{padding:6rem 0}
+.section-label{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.15em;color:var(--accent);margin-bottom:1rem}
+.section-label.blue{color:var(--accent2)}
+.section-title{font-family:var(--font-display);font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;line-height:1.2;margin-bottom:1.5rem}
+.section-subtitle{font-size:1.1rem;color:var(--text-muted);max-width:700px;margin-bottom:3rem}
+.opp-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.opp-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:2rem;transition:border-color .3s,transform .3s}
+.opp-card:hover{border-color:rgba(245,158,11,.3);transform:translateY(-3px)}
+.opp-icon{width:48px;height:48px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1.2rem;background:rgba(245,158,11,.1)}
+.opp-card h3{font-size:1.1rem;font-weight:700;margin-bottom:.6rem}
+.opp-card p{font-size:.95rem;color:var(--text-muted);line-height:1.6}
+.solution-section{background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.solution-grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.solution-visual{background:var(--bg-accent);border:1px solid var(--border);border-radius:16px;padding:2.5rem;position:relative;overflow:hidden}
+.solution-visual::before{content:'';position:absolute;top:-50%;right:-50%;width:100%;height:100%;background:radial-gradient(circle,var(--accent-glow) 0%,transparent 70%);pointer-events:none}
+.flow-item{display:flex;align-items:center;gap:1rem;padding:1rem 1.2rem;background:rgba(255,255,255,.03);border:1px solid var(--border);border-radius:10px;margin-bottom:.8rem;position:relative;z-index:1;transition:border-color .3s}
+.flow-item:hover{border-color:rgba(245,158,11,.3)}
+.flow-dot{width:10px;height:10px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.flow-dot.blue{background:var(--accent2)}
+.flow-dot.green{background:var(--success)}
+.flow-item span{font-size:.9rem;font-weight:600}
+.steps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;counter-reset:step}
+.step-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:2.5rem 2rem;position:relative;counter-increment:step;transition:border-color .3s,transform .3s}
+.step-card:hover{border-color:rgba(245,158,11,.3);transform:translateY(-3px)}
+.step-card::before{content:counter(step,decimal-leading-zero);font-family:var(--font-display);font-size:3.5rem;font-weight:900;color:rgba(245,158,11,.12);position:absolute;top:1rem;right:1.5rem;line-height:1}
+.step-card h3{font-size:1.15rem;font-weight:700;margin-bottom:.8rem}
+.step-card p{font-size:.95rem;color:var(--text-muted)}
+.market-section{background:var(--bg-accent);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.market-grid{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.market-fact{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:2rem;transition:transform .3s}
+.market-fact:hover{transform:translateY(-2px)}
+.market-fact h4{font-family:var(--font-display);font-size:1.5rem;font-weight:900;margin-bottom:.6rem;color:var(--accent)}
+.market-fact p{font-size:.95rem;color:var(--text-muted)}
+.stat-strip{border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:3rem 0;background:var(--bg-card)}
+.stat-strip .container{display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;text-align:center}
+.stat-num{font-family:var(--font-display);font-size:2.5rem;font-weight:900;color:var(--accent);line-height:1}
+.stat-label{font-size:.85rem;color:var(--text-muted);margin-top:.5rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.faq-list{max-width:800px}
+.faq-item{border-bottom:1px solid var(--border);padding:1.5rem 0}
+.faq-q{font-size:1.05rem;font-weight:700;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.faq-q::after{content:'+';font-size:1.5rem;color:var(--accent);transition:transform .3s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s;font-size:.95rem;color:var(--text-muted);line-height:1.7}
+.faq-item.open .faq-a{max-height:500px;padding-top:1rem}
+.cta-section{text-align:center;background:linear-gradient(180deg,var(--bg) 0%,var(--bg-accent) 100%)}
+footer{border-top:1px solid var(--border);padding:3rem 0;text-align:center;color:var(--text-muted);font-size:.85rem}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:900px){nav ul{display:none}.stat-strip .container{grid-template-columns:repeat(2,1fr)}.solution-grid,.market-grid{grid-template-columns:1fr}.steps-grid{grid-template-columns:1fr}.hero-paths{flex-direction:column;align-items:center}.path-card{max-width:100%}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container">
+<div class="logo">ФАБРИКА<span>.AI</span></div>
+<ul>
+<li><a href="#opportunity">Возможности</a></li>
+<li><a href="#solution">Как это работает</a></li>
+<li><a href="#how">Подключение</a></li>
+<li><a href="#market">Рынок</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+<a href="#cta" class="nav-cta">Обсудить проект</a>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+<div class="hero-content">
+<div class="hero-badge">AI-интегратор для бизнеса • 2026</div>
+<h1>Дополнительный канал продаж через <em>AI&#8209;агентов</em></h1>
+<p>AI-ассистенты обрабатывают миллионы запросов покупателей ежедневно. Мы помогаем производителям стать видимыми в&nbsp;этом новом канале — через MCP&#8209;серверы, GEO&#8209;оптимизацию и&nbsp;интеграцию каталогов с&nbsp;AI&#8209;системами.</p>
+
+<div class="hero-paths">
+<div class="path-card path-a" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">
+<div class="path-icon">🛒</div>
+<h3>AI-каталог</h3>
+<p class="path-desc">Разместите товары на&nbsp;нашей платформе — AI-агенты начнут находить и&nbsp;рекомендовать ваши товары покупателям.</p>
+<span class="path-tag">Быстрый старт</span>
+<button class="path-btn">Подробнее →</button>
+</div>
+<div class="path-card path-b" onclick="document.getElementById('custom').scrollIntoView({behavior:'smooth'})">
+<div class="path-icon">⚙️</div>
+<h3>Свой MCP-сервер</h3>
+<p class="path-desc">Мы построим вашу собственную AI&#8209;инфраструктуру — MCP&#8209;сервер, интеграция с&nbsp;1С, CRM, полный контроль данных.</p>
+<span class="path-tag">Кастомный проект</span>
+<button class="path-btn">Подробнее →</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- STATS -->
+<div class="stat-strip">
+<div class="container">
+<div><div class="stat-num">20%</div><div class="stat-label">Взаимодействий в e-commerce<br>через AI-агентов к 2026</div></div>
+<div><div class="stat-num">6 800+</div><div class="stat-label">Активных MCP-серверов<br>в мире</div></div>
+<div><div class="stat-num">30–60%</div><div class="stat-label">Рост цитирования<br>с llms.txt</div></div>
+<div><div class="stat-num">20%</div><div class="stat-label">Продавцов развивают<br>собственные каналы</div></div>
+</div>
+</div>
+
+<!-- OPPORTUNITY -->
+<section id="opportunity">
+<div class="container">
+<div class="section-label">Новый канал</div>
+<h2 class="section-title">AI-агенты — дополнительный канал продаж для бизнеса</h2>
+<p class="section-subtitle">Покупатели всё чаще ищут товары через AI-ассистентов. Это не&nbsp;замена существующих каналов, а&nbsp;новая возможность для диверсификации продаж.</p>
+<div class="opp-grid">
+<div class="opp-card">
+<div class="opp-icon">🤖</div>
+<h3>AI-агенты рекомендуют товары</h3>
+<p>Когда покупатель спрашивает ChatGPT или GigaChat «найди постельное бельё из сатина» — AI-агент обращается к&nbsp;подключённым каталогам и рекомендует конкретные товары.</p>
+</div>
+<div class="opp-card">
+<div class="opp-icon">🔗</div>
+<h3>MCP — стандарт связи с AI</h3>
+<p>Model Context Protocol — открытый стандарт, который поддерживают ChatGPT, Claude, GigaChat, DeepSeek, Perplexity и другие. Один MCP-сервер — доступ ко всем AI-системам.</p>
+</div>
+<div class="opp-card">
+<div class="opp-icon">📈</div>
+<h3>Диверсификация каналов</h3>
+<p>AI-канал работает параллельно с маркетплейсами, собственным сайтом и офлайн-продажами. Дополнительный источник лидов и заказов без конфликта с существующими.</p>
+</div>
+<div class="opp-card">
+<div class="opp-icon">🎯</div>
+<h3>Прямой контакт с покупателем</h3>
+<p>В отличие от классических площадок, через AI-канал покупатель приходит напрямую к вам — в Telegram, на сайт или по телефону. Вы владеете клиентской базой.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SOLUTION -->
+<section id="solution" class="solution-section">
+<div class="container">
+<div class="solution-grid">
+<div>
+<div class="section-label">Как это работает</div>
+<h2 class="section-title">Ваш каталог становится видимым для AI-систем</h2>
+<p class="section-subtitle" style="margin-bottom:1.5rem">Мы создаём MCP-сервер, который подключает ваши товары, цены и&nbsp;остатки к&nbsp;экосистеме AI-агентов. Покупатель описывает потребность — AI находит ваш товар.</p>
+<p style="color:var(--text-muted);font-size:.95rem;line-height:1.7">
+Пример: покупатель спрашивает AI-ассистента <em style="color:var(--accent)">«Найди постельное бельё из сатина, производство РФ, до 5000₽»</em> — агент обращается к вашему MCP-серверу, находит подходящие товары и рекомендует их покупателю с ссылкой на ваш контакт.
+</p>
+</div>
+<div class="solution-visual">
+<div class="flow-item"><div class="flow-dot"></div><span>Ваш каталог → Excel / 1С / база данных</span></div>
+<div class="flow-item"><div class="flow-dot blue"></div><span>MCP-сервер → стандартный протокол для AI</span></div>
+<div class="flow-item"><div class="flow-dot green"></div><span>GigaChat / ChatGPT / Claude → находят ваш товар</span></div>
+<div class="flow-item"><div class="flow-dot"></div><span>Покупатель → заявка напрямую вам</span></div>
+<div class="flow-item"><div class="flow-dot blue"></div><span>Аналитика → кто искал, тренды спроса</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section id="how">
+<div class="container">
+<div class="section-label">Подключение</div>
+<h2 class="section-title">Три шага к новому каналу продаж</h2>
+<p class="section-subtitle">Подключение каталога не требует технических знаний. Мы берём техническую часть на себя.</p>
+<div class="steps-grid">
+<div class="step-card">
+<h3>Предоставьте каталог</h3>
+<p>Excel, CSV, выгрузка из 1С или любой другой формат. Укажите товары, цены, остатки и описания. Мы структурируем данные для AI-систем.</p>
+</div>
+<div class="step-card">
+<h3>Мы настраиваем MCP-сервер</h3>
+<p>Создаём MCP-сервер с вашими данными, регистрируем его в реестрах AI-систем, настраиваем llms.txt и GEO-оптимизацию для максимальной видимости.</p>
+</div>
+<div class="step-card">
+<h3>Вы получаете заявки</h3>
+<p>AI-агенты находят ваши товары и рекомендуют покупателям. Заявки приходят в Telegram, WhatsApp, на сайт или в CRM. Вы контролируете весь процесс.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- CUSTOM MCP -->
+<section id="custom" style="background:var(--bg-card);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+<div class="container">
+<div class="section-label blue">Кастомная разработка</div>
+<h2 class="section-title">Собственный MCP-сервер — полный контроль</h2>
+<p class="section-subtitle">Для бизнеса, который хочет владеть инфраструктурой, данными и&nbsp;клиентской базой. Мы проектируем и&nbsp;разворачиваем персональный MCP-сервер.</p>
+<div class="opp-grid">
+<div class="opp-card">
+<div class="opp-icon" style="background:rgba(59,130,246,.1)">🏗️</div>
+<h3>Проектирование и разработка</h3>
+<p>Кастомный MCP-сервер с инструментами для вашего бизнеса: поиск товаров, фильтрация, цены, остатки, рекомендации. Интеграция с 1С, МойСклад, Битрикс.</p>
+</div>
+<div class="opp-card">
+<div class="opp-icon" style="background:rgba(59,130,246,.1)">🔒</div>
+<h3>Данные под вашим контролем</h3>
+<p>Размещение на вашем хостинге, в VK Cloud, Yandex Cloud или on-premise. Данные не покидают ваш контур. OAuth-авторизация, tenant isolation.</p>
+</div>
+<div class="opp-card">
+<div class="opp-icon" style="background:rgba(59,130,246,.1)">📡</div>
+<h3>GEO-оптимизация и продвижение</h3>
+<p>Настройка llms.txt, robots.txt для AI-краулеров, Schema.org разметка, регистрация в MCP-реестрах. Ваш бизнес становится видимым для всех AI-систем.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- MARKET -->
+<section id="market" class="market-section">
+<div class="container">
+<div class="section-label">Рынок</div>
+<h2 class="section-title">Почему AI-канал продаж актуален в 2026 году</h2>
+<p class="section-subtitle">Рынок e-commerce трансформируется. Производители диверсифицируют каналы продаж — AI становится одним из ключевых.</p>
+<div class="market-grid">
+<div class="market-fact">
+<h4>Рост AI-коммерции</h4>
+<p>По прогнозу Gartner, к 2026 году до 20% взаимодействий в e-commerce будут инициированы AI-агентами. Amazon, OpenAI и Perplexity уже встроили покупки в AI-ассистентов.</p>
+</div>
+<div class="market-fact">
+<h4>Диверсификация каналов</h4>
+<p>20% продавцов планируют развивать собственные интернет-магазины и новые каналы. AI-канал дополняет существующие и снижает зависимость от одной площадки.</p>
+</div>
+<div class="market-fact">
+<h4>MCP как стандарт</h4>
+<p>С 2024 года экосистема MCP выросла до 6 800+ серверов. Протокол поддерживают все крупные AI-платформы: OpenAI, Anthropic, Google, Сбер, DeepSeek.</p>
+</div>
+<div class="market-fact">
+<h4>GEO-оптимизация</h4>
+<p>Generative Engine Optimization — новая дисциплина. Сайты с llms.txt получают на 30–60% больше цитирований в ответах AI. Конкуренция в GEO пока минимальна.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+<div class="container">
+<div class="section-label">Вопросы и ответы</div>
+<h2 class="section-title">Частые вопросы</h2>
+<div class="faq-list">
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Что такое MCP-сервер и зачем он нужен бизнесу?</div><div class="faq-a">MCP (Model Context Protocol) — открытый стандарт, позволяющий AI-системам (ChatGPT, GigaChat, Claude, DeepSeek) получать данные из внешних источников в реальном времени. MCP-сервер для бизнеса делает ваш каталог, услуги и цены «видимыми» для AI-агентов. Когда покупатель спрашивает AI-ассистента о товаре — агент обращается к MCP-серверам и находит ваше предложение.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Как AI-агенты помогают увеличить продажи?</div><div class="faq-a">Покупатели всё чаще ищут товары через ChatGPT, Perplexity, GigaChat вместо традиционного поиска. По прогнозу Gartner, к 2026 году до 20% взаимодействий в e-commerce будут инициированы AI-агентами. Если ваш каталог подключён через MCP — AI-агент рекомендует именно ваш товар напрямую покупателю, минуя посредников.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Нужен ли программист для подключения?</div><div class="faq-a">Для базового подключения каталога — нет. Мы принимаем данные в Excel, CSV или выгрузку из 1С и настраиваем MCP-сервер за вас. Для кастомных интеграций с ERP, CRM или собственным сайтом мы выполняем разработку под ключ.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Какие AI-системы поддерживаются?</div><div class="faq-a">MCP — открытый стандарт. Поддерживаются все основные AI-платформы: ChatGPT (OpenAI), Claude (Anthropic), GigaChat (Сбер), DeepSeek, Qwen, Perplexity, Google Gemini и другие. По мере появления новых AI-агентов они автоматически получают доступ к вашему каталогу через MCP.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Чем это отличается от SEO или контекстной рекламы?</div><div class="faq-a">SEO продвигает вас в поисковой выдаче Google и Яндекса. GEO-оптимизация и MCP продвигают вас в ответах AI-систем — это принципиально новый канал. Покупатель получает персональную рекомендацию от AI-ассистента, которому доверяет. При этом MCP и GEO дополняют, а не заменяют классическое SEO и другие каналы.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Мои данные в безопасности?</div><div class="faq-a">Да. На платформе данные изолированы на уровне строк БД (row-level security) с JWT-токенами. При кастомной разработке вы получаете полностью выделенный сервер — данные не покидают ваш контур. Поддерживаем размещение в Yandex Cloud, VK Cloud и on-premise.</div></div>
+<div class="faq-item"><div class="faq-q" onclick="this.parentElement.classList.toggle('open')">Это конкурирует с маркетплейсами?</div><div class="faq-a">Нет. AI-канал продаж — это дополнительная возможность для диверсификации, а не замена существующих каналов. Многие производители успешно совмещают продажи на маркетплейсах, через собственный сайт и через AI-агентов. Каждый канал привлекает свою аудиторию.</div></div>
+</div>
+</div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="cta-section">
+<div class="container" style="text-align:center">
+<div class="section-label">Следующий шаг</div>
+<h2 class="section-title">Добавьте AI-канал к вашим продажам</h2>
+<p class="section-subtitle" style="margin:0 auto 2.5rem;text-align:center">Обсудим, как MCP-сервер и GEO-оптимизация могут работать для вашего бизнеса. Бесплатная консультация — 30 минут.</p>
+<div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+<button class="btn-primary" style="background:var(--accent);color:#000;padding:1rem 2.5rem;border-radius:8px;font-weight:700;font-size:1rem;border:none;cursor:pointer">Обсудить проект</button>
+<button class="btn-secondary" style="background:transparent;color:var(--text);padding:1rem 2.5rem;border-radius:8px;font-weight:600;font-size:1rem;border:1px solid rgba(255,255,255,.15);cursor:pointer">Telegram: @fabrika_ai</button>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© 2026 ФАБРИКА.AI — AI-интеграция для производителей и бизнеса</p>
+<p style="margin-top:.5rem">Россия · <a href="/llms.txt">llms.txt</a> · <a href="#">Политика конфиденциальности</a></p>
+</div>
+</footer>
+
+</body>
+</html>
